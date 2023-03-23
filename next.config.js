@@ -1,3 +1,5 @@
+/** @format */
+
 // @ts-check
 
 /**
@@ -7,6 +9,10 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  i18n: {
+    locales: ["en", "de"],
+    defaultLocale: "en",
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
